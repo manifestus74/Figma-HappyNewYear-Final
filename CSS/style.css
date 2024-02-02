@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', 'Merriweather';
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-color: 1px solid dimgray;
+}
+
+.header-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+
+}
+
+.header-image {
+    display: flex;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.header-image img {
+     
+} 
+
+.header-fadetoptobottom {
+
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+
+.header-fadetoptobottom img {
+
+position: absolute;
+top: 0;
+left: 130px;
+border-radius: 16px;
+margin: auto;
+
+}
+
+img {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.header-text {
+font-family: 'Merrieather';
+position: absolute;
+top: 150px;
+left: 600px;
+
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: capitalize;
+    justify-content: center;
+    text-align: center;
+}
+
+.Newyearparty {
+    color: white;
+    width: 500px;
+    font-size: 72px;
+    font-weight: 900;
+    font-style: normal;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.textblock {
+    
+    text-align: center;
+    
+}
+.off {
+    margin-top: 100px;
+    color: red;
+    font-family: 'Inter';
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.holidays {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: red;
+    margin-top: 50px;
+}
+
+.categories {
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.image-block-section1 {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+.image-block-section2 {
+    position: relative;
+    margin-bottom: 100px;
+    
+}
+
+.background-image-S2 {
+    position: relative;
+}
+
+.fadelefttorightS2 img {
+    position: absolute;
+}
+
+.year2024 img {
+width: 280px;
+position: absolute;
+top: 100px;
+left: 900px;
+}
+
+.text-block-section2 {
+    position: absolute;
+    left: 200px;
+    width: 500px;
+    color: white;
+    
+}
+
+.welcome {
+    letter-spacing: 0px;
+    font-size: 52px;
+    font-family: 'Merriweather';
+    letter-spacing: 6px;
+}
+
+.paragraph-section2 {
+    
+}
+
+.btn {
+    display: flex;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+}
+
+.btn a {
+    color: white;
+    width: 110px;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    background-color: red;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 16px;
+    letter-spacing: 0px;
+    font-family: 'Inter';
+    
+}
